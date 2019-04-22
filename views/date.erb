@@ -6,8 +6,8 @@
   </head>
   <body>
     <% require 'date' %>
-    <% date = DateTime.new %>
-    <%  mess = date.strftime("The date is %A, %B %d, 2019") %>
+    <% date = DateTime.new() %>
+    <%  mess = date.strftime("The date is %A, %B %d, %Y") %>
     <p><%=mess%></p>
   </body>
 </html>
