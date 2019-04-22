@@ -7,6 +7,6 @@
   <body>
     <% require 'date' %>
     <% date = DateTime.new %>
-    <% "The date is " + %>
+    <% date.strftime("The date is %A, %B %d, %Y") %>
   </body>
 </html>
